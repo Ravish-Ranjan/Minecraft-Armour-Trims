@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Armour Trim Generator</title>
+        <link rel="icon" type="image/x-icon" href="../media/armour trims/silence.png">
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="left">
+                <span>Trim</span>
+                <ul id="trim-slider"></ul>
+                <span>Trimming Ore</span>
+                <ul id="trim-ore-slider"></ul>
+            </div>
+            <div class="right">
+                <div class="armdisp"></div>
+                <div class="armsel">
+                    <div onclick="reveal(0)" id="helmet">
+                        <img class="selected-ar" src="../media/armour/empty_armor_slot_helmet.png" alt="">
+                        <div class="opt"></div>
+                    </div>
+                    <div onclick="reveal(1)" id="chestplate">
+                        <img class="selected-ar" src="../media/armour/empty_armor_slot_chestplate.png" alt="">
+                        <div class="opt"></div>
+                    </div>
+                    <div onclick="reveal(2)" id="legging">
+                        <img class="selected-ar" src="../media/armour/empty_armor_slot_leggings.png" alt="">
+                        <div class="opt"></div>
+                    </div>
+                    <div onclick="reveal(3)" id="boot">
+                        <img class="selected-ar" src="../media/armour/empty_armor_slot_boots.png" alt="">
+                        <div class="opt"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script/setter.js"></script>
+    </body>
+</html>

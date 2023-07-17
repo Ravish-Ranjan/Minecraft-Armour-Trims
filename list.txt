@@ -1,0 +1,45 @@
+armours : (4)                           (24 + 1)x(10x17) = 4,250
+    helmet
+    chestplate
+    leggings
+    boots
+
+armour type: (7)
+    leather
+    chainmail
+    iron
+    gold
+    diamond
+    netherite
+    turtle helmet
+
+ore to use: (10)
+    amethist
+    copper
+    diamond
+    emreld
+    gold
+    iron
+    lapis
+    netherite
+    quartz
+    redstone
+
+trim: (17)
+    netherite upgrade
+    coast
+    dune
+    spire
+    vex
+    rib
+    ward
+    silence
+    sentry
+    tide
+    wayfinder
+    raiser
+    eye
+    snout
+    wild
+    shaper
+    host
